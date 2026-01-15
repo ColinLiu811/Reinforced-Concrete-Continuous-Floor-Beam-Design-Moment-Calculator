@@ -1,5 +1,7 @@
 # Reinforced Concrete Continuous Floor Beam Design Moment Calculator
 
+For an Engineering Math Assignment
+
 This Python program solves reinforced-concrete continuous floor beam design-moment problems using ACI moment coefficients and ASCE 7 live-load reduction.
 
 ## Features
