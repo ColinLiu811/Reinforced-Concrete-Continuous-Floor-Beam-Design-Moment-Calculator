@@ -1,0 +1,48 @@
+{
+  "slab_thickness_in": 6.0,
+  "concrete_density_pcf": 150.0,
+  "sdl_psf": 20.0,
+  "live_load_psf": 60.0,
+  "beam_web_width_in": 12.0,
+  "beam_depth_in": 24.0,
+  "column_width_in": 18.0,
+  "dead_factor": 1.2,
+  "live_factor": 1.6,
+  "use_effective_span_ln": true,
+  "effective_depth_d_in": 21.0,
+  "assume_uniform_loads": true,
+  "assume_prismatic_member": true,
+  "span_ratio_limit": 1.20,
+  "use_live_load_reduction": true,
+  "aci_coefficients": {
+    "end_span": {
+      "neg_exterior_support_den": 24,
+      "neg_first_interior_support_den": 9,
+      "pos_midspan_den": 14
+    },
+    "interior_span": {
+      "pos_midspan_den": 16,
+      "neg_support_den_optional": 11
+    }
+  },
+  "live_load_reduction": {
+    "span_1": {
+      "KLL": 2.0,
+      "At_override_ft2": null
+    },
+    "span_2": {
+      "KLL": 2.0
+    },
+    "span_3": {
+      "KLL": 2.0
+    }
+  },
+  "beam_A_B_C_D": {
+    "span_lengths_cc_ft": [28.0, 24.0, 28.0],
+    "tributary_widths_ft": [10.0, 10.0, 10.0]
+  },
+  "beam_E_F_G_H": {
+    "span_lengths_cc_ft": [26.0, 24.0, 26.0],
+    "tributary_widths_ft": [12.0, 12.0, 12.0]
+  }
+}
